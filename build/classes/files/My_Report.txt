@@ -1,0 +1,8 @@
+Text Compare
+Produced: 7/25/2018 11:28:53 AM
+
+Mode:  Differences
+Left file: C:\Users\rahuldub\Desktop\DBComp-Results\TempTableDump\sourceXML\BL1_XML_CONFIG-XML-489
+Right file: C:\Users\rahuldub\Desktop\DBComp-Results\TempTableDump\targetXML\BL1_XML_CONFIG-XML-489
+                                AND t2.route IN ('FINAL', 'EXT_EXP', 'QA_EXP', 'QAEXT')  <>                                 AND t2.route IN ('EXTBOD_EXP','EXT_EXP', 'QA_EXP', 'QAEXT')
+------------------------------------------------------------------------

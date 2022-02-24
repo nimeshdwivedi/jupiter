@@ -1,0 +1,19 @@
+</tbody>
+  </table>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+</section>
+  <!-- Stats Gallery Section -->
+  
+  <!-- Parallax Section -->
+  <!-- More Info Section -->
+  <footer> </footer>
+  <!-- Footer Section -->
+  
+  <!-- Copyrights Section -->
+  <div class="copyright"> For any help or Queries, Email us on -  <strong>Nimesh.dwivedi@amdocs.com, bhuwan.bhatt@amdocs.com</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>

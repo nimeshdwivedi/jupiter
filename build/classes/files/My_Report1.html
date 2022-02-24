@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+.AlignLeft { text-align: left; }
+.AlignCenter { text-align: center; }
+.AlignRight { text-align: right; }
+.Wrap { white-space: nowrap; }
+body { font-family: sans-serif; font-size: 11pt; }
+td { vertical-align: top; padding-left: 4px; padding-right: 4px; }
+
+tr.SectionGap td { font-size: 4px; border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionBegin td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Black; border-right: 1px solid Black; }
+tr.SectionMiddle td { border-left: none; border-top: none; border-right: 1px solid Black; }
+tr.SubsectionAll td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+tr.SubsectionEnd td { border-left: none; border-top: none; border-bottom: 1px solid Gray; border-right: 1px solid Black; }
+table.fc { border-top: 1px solid Black; border-left: 1px solid Black; width: 100%; font-family: monospace; font-size: 10pt; }
+td.TextLineInsigAdd { background-color: #EFEFFF; }
+td.TextLineInsigDel { background-color: #EFEFFF; text-decoration: line-through; }
+td.TextLineInsigDiffMod { background-color: #EFEFFF; }
+td.TextLineInsigLeftMod { background-color: #EFEFFF; }
+td.TextLineInsigRightMod { background-color: #EFEFFF; }
+td.TextLineNum { color: #827357; background-color: #F2F2F2; }
+td.TextLineSigAdd { background-color: #FFE3E3; }
+td.TextLineSigDel { background-color: #FFE3E3; text-decoration: line-through; }
+td.TextLineSigDiffMod { background-color: #FFE3E3; }
+td.TextLineSigLeftMod { background-color: #FFE3E3; }
+td.TextLineSigRightMod { background-color: #FFE3E3; }
+.TextSegInsigDiff { color: #0000FF; }
+.TextSegReplacedDiff { color: #0000FF; font-style: italic; }
+.TextSegSigDiff { color: #FF0000; }
+</style>
+<title>Text Compare</title>
+</head>
+<body>
+Text Compare<br/>
+Produced: 7/25/2018 11:30:57 AM<br/>
+&nbsp; &nbsp;
+<br/>
+Mode:&nbsp; Differences, With Context, Ignoring Unimportant &nbsp;
+<br/>
+Left file: C:\Users\rahuldub\Desktop\DBComp-Results\TempTableDump\sourceXML\BL1_XML_CONFIG-XML-489 &nbsp;
+<br/>
+Right file: C:\Users\rahuldub\Desktop\DBComp-Results\TempTableDump\targetXML\BL1_XML_CONFIG-XML-489 &nbsp;
+<br/>
+<table class="fc" cellspacing="0" cellpadding="0">
+<tr class="SectionBegin">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FROM&nbsp; &nbsp; bl1_cycle_control t1, bl1_cycle_groups t2</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FROM&nbsp; &nbsp; bl1_cycle_control t1, bl1_cycle_groups t2</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; WHERE&nbsp; &nbsp; t1.cycle_seq_no = :contextInfo.cycleSeqNo </td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; WHERE&nbsp; &nbsp; t1.cycle_seq_no = :contextInfo.cycleSeqNo </td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t1.cycle_seq_no = t2.cycle_seq_no </td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t1.cycle_seq_no = t2.cycle_seq_no </td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t1.cycle_code = :contextInfo.cycleCode </td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t1.cycle_code = :contextInfo.cycleCode </td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.flow_id = 'BLPREP'</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.flow_id = 'BLPREP'</td>
+</tr>
+<tr class="SectionEnd">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.STATUS&nbsp; not in ('FIN','REJ')</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.STATUS&nbsp; not in ('FIN','REJ')</td>
+</tr>
+<tr class="SectionAll">
+<td class="TextLineSigDiffMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.route IN ('<span class="TextSegSigDiff">FINAL</span>', 'EXT_EXP', 'QA_EXP', 'QAEXT') </td>
+<td class="AlignCenter Wrap">&lt;&gt;</td>
+<td class="TextLineSigDiffMod Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AND t2.route IN ('<span class="TextSegSigDiff">EXTBOD_EXP</span>','EXT_EXP', 'QA_EXP', 'QAEXT') </td>
+</tr>
+<tr class="SectionBegin">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; GROUP BY t1.cycle_year, t1.cycle_instance, t1.cycle_code, t1.cycle_seq_run</td>
+<td class="AlignCenter Wrap">=</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; GROUP BY t1.cycle_year, t1.cycle_instance, t1.cycle_code, t1.cycle_seq_run</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/selectCommand&gt;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/selectCommand&gt;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;dbConnection&gt;DBAlias&lt;/dbConnection&gt;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;dbConnection&gt;DBAlias&lt;/dbConnection&gt;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;result xsi:type=&quot;engineCursor&quot;&gt;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;result xsi:type=&quot;engineCursor&quot;&gt;</td>
+</tr>
+<tr class="SectionMiddle">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;dbResult&lt;/name&gt;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;name&gt;dbResult&lt;/name&gt;</td>
+</tr>
+<tr class="SectionEnd">
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;datatype&gt;recordDT&lt;/datatype&gt;</td>
+<td class="AlignCenter Wrap">&nbsp;</td>
+<td class="Wrap">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;datatype&gt;recordDT&lt;/datatype&gt;</td>
+</tr>
+</table>
+<br/>
+</body>
+</html>

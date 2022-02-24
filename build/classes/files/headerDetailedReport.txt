@@ -1,0 +1,8 @@
+<p>&nbsp;</p>
+<p style="text-align: center;">&nbsp;Table Name:&nbsp;tableNameComesHere</p>
+<table style="border-collapse: collapse; margin-left: auto; margin-right: auto;" border="black">
+<tbody>
+<tr style="background-color: yellow;">
+<td style="text-align: center;" colspan="numberOfColumnsComesHere">Source DB</td>
+<td style="text-align: center;" colspan="numberOfColumnsComesHere">Target DB</td>
+</tr>

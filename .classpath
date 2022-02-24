@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="xmlBean/|componentBean/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/componentBean"/>
+	<classpathentry kind="src" path="src/xmlBean"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="lib" path="dist/Jupiter_v2.3.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/activation.jar"/>
+	<classpathentry kind="lib" path="dist/lib/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mail.jar"/>
+	<classpathentry kind="lib" path="dist/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="dist/lib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="dist/lib/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="dist/lib/smtp.jar"/>
+	<classpathentry kind="lib" path="dist/lib/swing-layout-1.0.4.jar"/>
+	<classpathentry kind="lib" path="dist/lib/xmlbeans.jar"/>
+	<classpathentry kind="lib" path="dist/lib/xmlunit-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/beans-binding/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="lib/dom4j.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/ojdbc7.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.9.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.9.jar"/>
+	<classpathentry kind="lib" path="lib/smtp.jar"/>
+	<classpathentry kind="lib" path="lib/swing-layout-1.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/xmlbeans.jar"/>
+	<classpathentry kind="lib" path="lib/xmlunit-1.4.jar"/>
+	<classpathentry kind="lib" path="store/Jupiter.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/test/classes"/>
+</classpath>

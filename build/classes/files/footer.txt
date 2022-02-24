@@ -1,0 +1,28 @@
+</tbody>
+  </table>
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2 class="hidden">About</h2>
+</section>
+  <!-- Stats Gallery Section -->
+  
+  <!-- Parallax Section -->
+  
+  <!-- More Info Section -->
+  <footer> </footer>
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 align="center">Description of Fields</h2>
+    <p class="hero_header"> ----------------------------------------</p>
+	  <p class="hero_header">Mismatches --  Updated Fields (Data present in both DBs with minor differences)</p>
+	  <p class="hero_header">Unique Source 	-- Deleted Fields (Data present only in source and missing from Target)</p>
+	  <p class="hero_header">Unique Target -- Inserted Fields (Data present only in Target and missing from Source)</p>
+	  <p class="hero_header"> ----------------------------------------</p>
+	  <p class="hero_header">Total Conflicts -- Sum of all mismatches and unique data found in the two DBs</p>
+</section>
+  <!-- Copyrights Section -->
+  <div class="copyright"> For any help or Queries, Email us on -  <strong>Nimesh.dwivedi@amdocs.com, bhuwan.bhatt@amdocs.com</strong></div>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
